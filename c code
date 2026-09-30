@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int i;
+	int al[6];
+	for(i=0;i<=5;i++)
+	{
+		printf("%d. sayi gir-> ",i+1);
+		scanf("%d",&al[i]);
+	}
+for(i=5;i>=0;i--)
+{
+	printf("%d ",al[i]);
+}
+
+
+	return 0;
+} doğru mu
